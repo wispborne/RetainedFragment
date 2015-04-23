@@ -1,8 +1,8 @@
 # RetainedFragment
 Implementation of a retaining fragment that does most of the hard work.
 
+###Example retrieval usage
 ```java
-// Example retrieval usage
 public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
      // other createView stuff
      
@@ -13,9 +13,10 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle sa
      
      // more createView stuff
 }
+```
  
- 
-// Example put usage
+###Example put usage
+ ```java
 public void onSaveInstanceState(Bundle outState) {
      // save instance state stuff
      
