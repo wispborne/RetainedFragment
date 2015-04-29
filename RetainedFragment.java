@@ -115,7 +115,7 @@ public class RetainedFragment extends Fragment {
      * @return The stored object
      */
     @SuppressWarnings("unchecked")
-    @NonNull
+    @Nullable
     public <T> T get(@NonNull final String key) {
         return (T) objectMap.get(key);
     }
